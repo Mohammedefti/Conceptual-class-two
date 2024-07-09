@@ -205,4 +205,38 @@ background: rgba(39, 39, 39, 0.05);
     background-color: rgb(229, 84, 115);
 }
 
+/* footer */
+.footer-container{
+    max-width: 1440px;
+    height: 350px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top:25px ;
+    background-color: rgb(17, 16, 16);
+}
+.footer-content{
+    
+    height: 132px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.text{
+    color: white;
+}
+.text1{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    /* height: 30px; */
+}
+.des{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 10px;
+    margin-top: 20px;
+
+}
 
