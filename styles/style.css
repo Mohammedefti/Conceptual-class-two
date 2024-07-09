@@ -36,7 +36,7 @@ height: 650px;
     margin-right: 340px;
     width: 150px;
     height: 45px;
-    padding: 20px 10px;
+    padding: 1cm 10px;
     background-color: rgb(229, 84, 115);
     border: none;
     border-radius: 2px;
@@ -139,6 +139,66 @@ background: rgba(39, 39, 39, 0.05);
     border: 2px dotted gray;
 }
 
+
+/* hot deal styles */
+.hot-deal-container{
+    width: 1440px;
+    height: 650px;
+    background-color:rgba(229, 84, 115, 0.05);
+    /* border: 2px solid red; */
+}
+.hot-deal-content{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.hot-deal-text-container{
+    width: 60%;
+    /* border: 2px solid green; */
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hot-deal-text-container button{
+    margin-right: 25px;
+    width: 150px;
+    height: 45px;
+    padding:10px 10px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    color: #DAF0F2;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+    
+}
+.hot-deal-image-container{
+    width: 40%;
+    /* border: 2px solid blue; */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.hot-deal-image-container img{
+    border: 2px dotted gray;
+}
+ .hot-deal-text-container p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* hot deal ends here  */
 .instagram-section-container{
     width: 90%;
     height: 1050px;
